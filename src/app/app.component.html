@@ -1,0 +1,18 @@
+<section>
+  <div class="row" style="width: 80%;margin-left: 10%;">
+    <div class=" col-4" *ngFor="let pokemon of pokemons">
+      <div class="card-pokemon" style="border: 2px solid gray;margin-bottom:10px">
+        <div class="row">
+          <div class="col-4">
+            <img src={{pokemon.imageUrl}} alt="">
+
+          </div>
+          <div class="col-8">
+            <h1>{{pokemon.name}}</h1>
+
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
